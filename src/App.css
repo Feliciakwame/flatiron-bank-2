@@ -1,0 +1,85 @@
+.header {
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(8, 24, 117);
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+}
+.Search input {
+  width: 1000px;
+  height: 20px;
+  padding-bottom: 10px;
+  font-size: large;
+  display: flex;
+  text-align: left;
+
+  border: 2px solid rgb(75, 73, 73);
+}
+.InputContainer {
+  background-color: rgb(16, 59, 124);
+}
+.InputContainer {
+  .AmountInput {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: nowrap;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+}
+.InputContainer {
+  .category {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: nowrap;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+}
+.InputContainer {
+  .Description {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: nowrap;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+}
+.InputContainer {
+  .Date {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: nowrap;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+}
+.AddBtn {
+  font-size: medium;
+  color: white;
+  background-color: rgb(90, 143, 10);
+  border: 2px solid green;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+.AddBtn:hover {
+  transition-duration: 0.25s;
+  background-color: rgb(55, 184, 55);
+}
+.BankList {
+  background-color: white;
+  color: grey;
+}
+.BankList {
+  .DateList {
+  }
+}
