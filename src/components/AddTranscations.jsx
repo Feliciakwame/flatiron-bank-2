@@ -1,15 +1,3 @@
-/* import React from "react";
-
-function AddTranscations() {
-  return (
-    <div className="addBtn">
-      <input type="submit" value="Add Transaction" />
-    </div>
-  );
-}
-
-export default AddTranscations;
- */
 import React from "react";
 
 function AddTranscations({ handleSubmit }) {

@@ -1,27 +1,3 @@
-/* import React from "react";
-import DateInput from "./DateInput";
-import DescriptionInput from "./DescriptionInput";
-//import SearchBar from "./SearchBar";
-import CategoryInput from "./CategoryInput";
-import AmountInput from "./AmountInput";
-import AddTranscations from "./AddTranscations";
-
-function UserInput() {
-  return (
-    <div className="InputContainer">
-      <form>
-        <DateInput />
-        <CategoryInput />
-        <AmountInput />
-        <DescriptionInput />
-        <AddTranscations />
-      </form>
-    </div>
-  );
-}
-
-export default UserInput; 
- */
 import React, { useState } from "react";
 import DateInput from "./DateInput";
 import DescriptionInput from "./DescriptionInput";
@@ -46,8 +22,8 @@ function UserInput({ onAddTransaction }) {
     })
       .then((res) => res.json())
       .then((data) => {
-        onAddTransaction(data); // Update parent state
-        setDate(""); // Clear input fields
+        onAddTransaction(data);
+        setDate("");
         setDescription("");
         setCategory("");
         setAmount("");
